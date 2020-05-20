@@ -15,6 +15,8 @@ const renderCSS = require("./lib/cssRenderer");
 const employeeRoster = [];
 
 
+// Write code to use inquirer to gather information about the development team members,
+// and to create objects for each team member (using the correct classes as blueprints!)
 
 function appMenu () {
     function createManager() {
@@ -132,6 +134,10 @@ function appMenu () {
         });
     }
 
+
+    // After the user has input all employees desired, call the `render` function (required
+    // above) and pass in an array (employeeRoster) containing all employee objects; the `render` function will
+    // generate and return a block of HTML including templated divs for each employee!
     function buildTeam() {
         if (!fs.existsSync(OUTPUT_DIR)) {
             fs.mkdirSync(OUTPUT_DIR)
@@ -152,12 +158,7 @@ function appMenu () {
 appMenu();
 
 
-// Write code to use inquirer to gather information about the development team members,
-// and to create objects for each team member (using the correct classes as blueprints!)
 
-// After the user has input all employees desired, call the `render` function (required
-// above) and pass in an array containing all employee objects; the `render` function will
-// generate and return a block of HTML including templated divs for each employee!
 
 // After you have your html, you're now ready to create an HTML file using the HTML
 // returned from the `render` function. Now write it to a file named `team.html` in the

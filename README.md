@@ -6,8 +6,10 @@
  ## Description
  
  This app allows the user to build a roster of employees based on their job titles.
+ 
  video:https://drive.google.com/file/d/1VQDGRuzVRlmeWxVK_h5t-J1dunw6JJ8a/view
- link to github repo:
+
+ link to github repo:https://jessealdana.github.io/employeeRoster/
  
  ## Table of Contents
   * [Installation](#Installation)
@@ -18,7 +20,7 @@
   * [Questions](#questions)
  ## Installation
 
- This app is run from the command line.
+ This app is run from the command line in the employeeRoster directory.
 
  ## Usage
  
